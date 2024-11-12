@@ -8,16 +8,17 @@ const myInput = document.createElement('ch-input');
 main.append(myInput);
 
 myInput.addEventListener('input', ({ detail: res }) => {
-    // console.log(res);
-
+ 
 })
 
 const yourInput = document.createElement('ch-range');
 yourInput.update({
-    value: 400,
-    min: 100,
+    min: -100,
     max: 1000,
-    step: 100
+    step: 200,
+    values: [100, 400,450],
+    color: ['#f00', '#0f0', '#ff0'],
+    width: 200,
 })
 main.append(yourInput)
 
