@@ -16,7 +16,7 @@ yourInput.update({
     min: -100,
     max: 1000,
     step: 200,
-    values: [100, 400,450],
+    values: [100,300,850],
     color: ['#f00', '#0f0', '#ff0'],
     width: 200,
 })
